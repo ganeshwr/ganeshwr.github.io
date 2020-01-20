@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="img/icons/icon-96x96.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/icons/icon-apple-192x192.png">
+    <title>Football Portal</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper white">
+            <a href="/" class="brand-logo black-text" style="margin-left: 0.5em">
+                Football Portal
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
+                    class="material-icons black-text">menu</i></a>
+            <ul class="topnav right hide-on-med-and-down">
+                <li><a class="black-text" href="#classement">Classement</a></li>
+                <li><a class="black-text" href="#favorite-team">Favorite Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#classement">Classement</a></li>
+        <li><a href="#favorite-team">Favorite Team</a></li>
+    </ul>
+
+    <div id="body-content">
+
+    </div>
+
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Football Portal</h5>
+                    <p class="grey-text text-lighten-4">
+                        Web portal for daily football information, schedule, and many more.
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul class="footer">
+                        <li><a class="grey-text text-lighten-3" href="#classement">Classement</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#favorite-team">Favorite Team</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container">
+                © 2019 Football Portal
+                <a class="grey-text text-lighten-4 right" href="https://www.football-data.org/" target="_black">API
+                    Information</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/classement.js"></script>
+    <script src="js/team-information.js"></script>
+    <script src="js/favorite-team.js"></script>
+    <script src="js/initServiceWorker.js"></script>
+</body>
+
+</html>

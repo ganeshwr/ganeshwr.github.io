@@ -1,0 +1,32 @@
+/* classement */
+.classement-card-same-height{
+    height: 10em !important;
+}
+
+.classement-club{
+    display: flex;
+    align-items: center;
+}
+
+.classement-club-img{
+    width: 2em;
+    margin-right: 1em;
+}
+
+/* team-information */
+#team-img{
+    max-width: 10em;
+}
+
+/* favorite-team */
+.favorite-team-img{
+    max-width: 10em;
+}
+
+.favorite-team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 80% !important;
+    height: 100% !important;
+}
